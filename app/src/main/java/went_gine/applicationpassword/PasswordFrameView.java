@@ -13,7 +13,6 @@ import android.view.View;
  *author: Went_Gone
  *create on: 2016/10/24
  */
-
 public class PasswordFrameView extends View{
     private static final String TAG = "passwordframeView";
     private int width;//设置高
