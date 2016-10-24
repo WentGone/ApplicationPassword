@@ -9,7 +9,9 @@ import android.view.View;
 
 
 /**
- * Created by Went_Gone on 2016/10/9.
+ *describe: 单独一个自定义的支付密码框(是否显示密码点)
+ *author: Went_Gone
+ *create on: 2016/10/24
  */
 
 public class PasswordFrameView extends View{
