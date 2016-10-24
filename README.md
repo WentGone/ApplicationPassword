@@ -1,0 +1,14 @@
+# ApplicationPassword
+支付密码框以及支付密码框的dialog形式
+
+1.
+前端时间思路：
+变成点的控件不是TextView和EditText而是Imageview。首先写一个RelativeLayout里边包含6个ImageView和一个EditText(EditText要覆盖ImageView)将EditText的背景设置成透明。
+我在此基础上做了修改：
+将ImageView变成了一个自定义的View，动过onDraw方法进行绘制是否有点。
+
+2.
+自定义一个控件ItemPasswordLayout，用来给布局做一些处理，重点是将EditText的光标去掉，并监听输入文字的事件在文字变化后将文字放在一个StringBuffer中，并将edittext设置为"";再监听按下键盘删除键的事件，当按下删除键后会将StringBuffer中删除相应位置的字符。
+
+3.
+直接使用控件就好。
