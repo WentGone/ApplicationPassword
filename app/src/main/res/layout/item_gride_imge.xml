@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- 模拟键盘按钮，当然你可以用Button，但要注意Button和GrideView的点击响应问题 -->
+    <ImageView
+        android:id="@+id/image_keys"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@mipmap/back"
+        android:layout_centerInParent="true"/>
+</RelativeLayout>

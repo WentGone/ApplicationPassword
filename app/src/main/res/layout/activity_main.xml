@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="went_gine.applicationpassword.MainActivity">
+    <went_gine.applicationpassword.ItemPasswordLayout
+        android:id="@+id/main_itemPasswordLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+    </went_gine.applicationpassword.ItemPasswordLayout>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/main_floationgActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="20dp"
+        android:src="@mipmap/dialog_img"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dialog:"
+        android:textColor="@android:color/black"
+        android:layout_above="@id/main_floationgActionButton"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="60dp"/>
+</RelativeLayout>
