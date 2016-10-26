@@ -2,7 +2,7 @@
 支付密码框以及支付密码框的dialog形式
 
 1.
-前端时间思路：
+前段时间思路：
 变成点的控件不是TextView和EditText而是Imageview。首先写一个RelativeLayout里边包含6个ImageView和一个EditText(EditText要覆盖ImageView)将EditText的背景设置成透明。
 我在此基础上做了修改：
 将ImageView变成了一个自定义的View，动过onDraw方法进行绘制是否有点。
